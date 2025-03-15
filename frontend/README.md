@@ -1,19 +1,19 @@
-# Frontend
+## Frontend
 
-## Configuration
+### Configuration
 
-Create a `.env` file using the `.env.example` file as a reference
+1. Create a `.env` file by using the `.env.example` file as a reference.
 
-## How to run the frontend
+### Running the Frontend
 
-1. Install Node.js
-2. Run `npm install` in the frontend directory
-3. Run `npm start` in the frontend directory
-4. Open `http://localhost:3000` in your browser
+1. Install Node.js.
+2. Run `npm install` within the frontend directory to install dependencies.
+3. Start the application with `npm start` in the frontend directory.
+4. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-## How to run Coverage tests
+### Running Coverage Tests
 
-1. Create jest.config.js
-2. Add the required code lines from a dummy file .jest.example
-3. To run coverage, the command is `npm run test`
-4. To run coverage for all tests, the command is `npm run test:watch`
+1. Create a `jest.config.js` file.
+2. Add the necessary configuration from the `.jest.example` file.
+3. To run tests and generate a coverage report, execute the following command: `npm run test`.
+4. To run tests and watch for changes, use: `npm run test:watch`.
