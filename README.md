@@ -4,26 +4,33 @@
 
 ## Project Overview
 
-MetPoll is a polling application designed to improve communication between teachers and students, enabling teachers to track lecture performance and gain valuable feedback on their teaching effectiveness.
+MetPoll is a polling application designed to enhance communication between teachers and students. It enables teachers to track lecture performance and gather valuable feedback on their teaching effectiveness.
 
-## Features
+## Key Features
 
-- Allows teachers to collect feedback on lecture performance.
-- Provides insights into the effectiveness of individual lectures.
-- React-based frontend for a responsive user interface.
-- Python/Flask backend for managing requests and handling data.
+- Collects real-time feedback on lecture performance from students.
+- Provides teachers with insights into the effectiveness of their lectures.
+- React-based frontend for a dynamic and responsive user interface.
+- Python/Flask backend for handling data and managing server-side logic.
 
 ## Project Structure
 
-- **Frontend**: React-based user interface for student interactions.
-- **Backend**: Python/Flask backend to manage data and logic.
+This repository is divided into two main parts:
+
+- **Frontend**: A React-based user interface that allows students to interact with the polling system.
+- **Backend**: A Python/Flask server that processes requests, manages data, and handles business logic.
 
 ## Instructions
 
-### Frontend
+### Frontend Setup
 
-For detailed instructions on setting up and running the frontend, refer to the [Frontend README](./frontend/README.md).
+For detailed instructions on how to set up and run the frontend, refer to the [Frontend README](./frontend/README.md).
 
-### Backend
+### Backend Setup
 
-For detailed instructions on setting up and running the backend, refer to the [Backend README](./backend/README.md).
+For detailed instructions on how to set up and run the backend, refer to the [Backend README](./backend/README.md).
+
+## Technologies Used
+
+- **Frontend**: React
+- **Backend**: Python with Flask
